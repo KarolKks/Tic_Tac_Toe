@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Kółko i krzyżyk</h1>
+    <div class="container">
+        <table>
+            <tr>
+                <td data-index="0" class="cell"></td>
+                <td data-index="1" class="cell"></td>
+                <td data-index="2" class="cell"></td>
+            </tr>
+            <tr>
+                <td data-index="3" class="cell"></td>
+                <td data-index="4" class="cell"></td>
+                <td data-index="5" class="cell"></td>
+            </tr>
+            <tr>
+                <td data-index="6" class="cell"></td>
+                <td data-index="7" class="cell"></td>
+                <td data-index="8" class="cell"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="content">
+        <div id="result">Zwycięzca: </div>
+    </div>
+    <div class="content">
+        <div id="punctationX"> X: </div>
+        <div id="punctationO"> O: </div>
+    </div>
+    <div id="foo"><button id="play">Reset</button></div>
+    <script src="app.js"></script>
+</body>
+</html>
