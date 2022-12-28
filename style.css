@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&family=Yanone+Kaffeesatz&display=swap');
+*{
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #7E8287;
+}
+
+h1{
+    justify-content: center;
+    text-align: center;
+}
+
+.container{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    border: 5px solid orange;
+    border-collapse: collapse;
+    background-color: #242629;
+}
+
+
+td{
+    border: 5px solid ;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+#play{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius:25px;
+    display: flex;
+    justify-content: center;
+    height: 45px;
+    width: 100px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#play:hover{
+    transform: scale(1.03);
+}
+
+#foo{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+td:hover{
+    background-color: rgb(255, 255, 255);
+    transition: all ease-in-out 0.8s;
+}
+
+#punctationX{
+    margin-right: 40px;
+}
+
+#punctationO{
+    margin-left: 40px;
+}
