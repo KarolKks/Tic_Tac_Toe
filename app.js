@@ -79,14 +79,6 @@ class App {
         this.initGame();
     }
 
-    setP(s){
-        if(a == "O"){
-            document.getElementById("punctationO").innerHTML = s;
-        }else{
-            document.getElementById("punctationX").innerHTML = s;
-        }
-    }
-
     getCellValue(index) {
         return document.querySelector(`.cell[data-index='${index}']`).innerHTML;
     }
